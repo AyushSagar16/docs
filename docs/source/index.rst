@@ -15,7 +15,6 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+
    getstarted
    pidcontroller

@@ -1,6 +1,11 @@
 Getting Started
 ===============
 
+If you are new to Programming or Java programming this is the perfect place to start!
+Just follow the guide below and you'll be ready to start programming in no time!
+
+Git and Github
+--------------
 In our team we use Git and Github to manage our code. These tools are called version control they help ensure everyone has access to the lastest code and make it easy to track changes.
 This page will help you get started with Git and Github.
 
@@ -93,4 +98,6 @@ Congratulations! You have created a GitHub account and installed GitHub Desktop 
 You can now view some of our `previous robot's code <https://github.com/FRC5190>`_!
 
 This continues...
+We will talk about installing VS Code, java, wpilib and other things 
+
 
