@@ -44,22 +44,15 @@ In our Robot, PID controllers are employed in various applications, including:
 
 How to Use a PID Controller
 ---------------------------
-The WPILib library provides a PIDController class that can be used to implement PID control in your robot. The class can be found `here <https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/controller/PIDController.html>`_.
+The WPILib library provides a PIDController class that can be used to implement PID control in your robot. The class can be found `here <https://first.wpi.edu/wpilib/allwpilib/docs/development/java/edu/wpi/first/math/controller/PIDController.html>`_.
 
 Code Examples
 -------------   
 
 Here we are importing the PIDController class from the WPILib library.
 
-.. tabs::
 
-  .. code-tab:: java
-
-    // The integral gain term will never add or subtract more than 0.5 from
-    // the total loop output
-    pid.setIntegratorRange(-0.5, 0.5);
-
-.. highlight:: java
+.. code-block:: java
    import edu.wpi.first.wpilibj.controller.PIDController;
 
    public class PIDExample {
