@@ -47,10 +47,11 @@ How to Use a PID Controller
 The WPILib library provides a PIDController class that can be used to implement PID control in your robot. The class can be found [here](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/controller/PIDController.html).
 
 Code Examples
--------------
+-------------   
 
 Here we are importing the PIDController class from the WPILib library.
-.. code-block:: java
+
+.. code-block:: c++
    import edu.wpi.first.wpilibj.controller.PIDController;
 
    public class PIDExample {
@@ -72,7 +73,7 @@ Here we are importing the PIDController class from the WPILib library.
      }
 
      public double getOutput() {
-         return output;
+      return output;
      }
      
    }
