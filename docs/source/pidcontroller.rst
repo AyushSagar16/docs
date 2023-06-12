@@ -52,7 +52,7 @@ Code Examples
 Here we are importing the PIDController class from the WPILib library.
 
 
-.. code-block:: java
+
    import edu.wpi.first.wpilibj.controller.PIDController;
 
    public class PIDExample {
