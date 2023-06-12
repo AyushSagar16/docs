@@ -51,32 +51,31 @@ Code Examples
 
 Here we are importing the PIDController class from the WPILib library.
 .. code-block:: java
-    
-    import edu.wpi.first.wpilibj.controller.PIDController;
-    
-    public class PIDExample {
-        private final double kP_ = 0.1;
+   import edu.wpi.first.wpilibj.controller.PIDController;
 
-        // We usually leave the kI and kD terms as 0 unless there is oscillations
-        private final double kI_ = 0.0;
-        private final double kD_ = 0.0;
+   public class PIDExample {
+     private final double kP_ = 0.1;
 
-        public PIDExample() {
-            // Create a PIDController with the specified constants
-            PIDController pid_controller_ = new PIDController(kP_, kI_, kD_);
-            
-            // Set the setpoint to 10
-            pid_controller_.setSetpoint(10);
-            
-            // Get the output of the PID controller
-            double output = pid_controller_.calculate(5);
-        }
+     // We usually leave the kI and kD terms as 0 unless there is oscillations
+     private final double kI_ = 0.0;
+     private final double kD_ = 0.0;
 
-        public double getOutput() {
-            return output;
-        }
-        
-    }
+     public PIDExample() {
+         // Create a PIDController with the specified constants
+         PIDController pid_controller_ = new PIDController(kP_, kI_, kD_);
+         
+         // Set the setpoint to 10
+         pid_controller_.setSetpoint(10);
+         
+         // Get the output of the PID controller
+         double output = pid_controller_.calculate(5);
+     }
+
+     public double getOutput() {
+         return output;
+     }
+     
+   }
 
 PID Controllers are one of the most important tools we have in code although we have to use it wisely and only when necessary.
 

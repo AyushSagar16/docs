@@ -50,7 +50,7 @@ For more information on how to use Git, refer to the Git documentation at https:
 ------------------------
 
 Creating a GitHub Account and Downloading GitHub Desktop
-=======================================================
+--------------------------------------------------------
 
 To get started with GitHub, follow these steps to create an account and download GitHub Desktop:
 
