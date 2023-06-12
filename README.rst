@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+Falcon Documentation
+====================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
+Exaple of how Falcon Documentation would look like
 
 https://docs.readthedocs.io/en/stable/tutorial/
