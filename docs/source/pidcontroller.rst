@@ -1,6 +1,5 @@
 PID Controllers
 ===============
-
 This page will explain what a PID controller is, where it can be useful, and how to use it!
 
 Introduction
